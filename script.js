@@ -3,7 +3,7 @@ const songs = [
     title: "Hanuman_Chalisa",
     artist: "Krishna",
     src: "assets/songs/Hanuman Chalisa.mp3",
-    cover: "assets/songs/hanuman.jpg",
+    cover: "./assets/songs/hanuman.jpg",
   },
   {
     title: "Theme_Of_Kalki",
