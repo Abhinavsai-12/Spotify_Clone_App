@@ -46,7 +46,7 @@ body.dark-theme .album-card {
   justify-content: space-between;
   align-items: center;
   background-color: #181818;
-  border-bottom: 2px #010101 solid;
+  border-bottom: 2px #848282 solid;
   padding: 10px 20px;
   color: white;
   position: sticky;
@@ -190,7 +190,7 @@ body.dark-theme .album-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px #010101 solid;
+  border-top: 2px #848282 solid;
   padding: 10px 30px;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.4);
   z-index: 1000;
