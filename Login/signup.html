@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Spotify Login</title>
+  <title>Forgot Password</title>
   <link rel="shortcut icon" href="../assets/Spotify_icon.svg.png" type="image/x-icon">
 
   <style>
@@ -107,7 +107,7 @@
 <body>
 
   <div class="login">
-    <h2><img src="../assets/Spotify_icon.svg.png" alt="Spotify" class="icon"> Spotify Login</h2>
+    <h2><img src="../assets/Spotify_icon.svg.png" alt="Spotify" class="icon"> Spotify Signup</h2>
 
     <div class="user">
       <label for="username">User Name</label>
@@ -115,25 +115,46 @@
     </div>
 
     <div class="user">
+      <label for="username">Mobile</label>
+      <input type="tel" name="username" placeholder="Enter Username" required>
+    </div>
+
+    <div class="user">
+      <label for="username">Email Id</label>
+      <input type="email" name="username" placeholder="Enter Username" required>
+    </div>
+
+    <div class="user">
+      <label for="username">Date of Birth</label>
+      <input type="date" name="username" placeholder="Enter Username" required>
+    </div>
+
+    <div class="user">
       <label for="password">Password</label>
       <input type="password" name="password" placeholder="Enter Password" required>
     </div>
 
+    <div class="user">
+      <label for="password">Confirm Password</label>
+      <input type="password" name="password" placeholder="Enter Password" required>
+    </div>
+
     <div class="sub">
-      <input type="submit" value="Login" onclick="login()" >
+      <input type="submit" value="Sign Up" onclick="signup()">
     </div>
 
     <div class="final">
-      <p>Don't have an account? <a href="signup.html">Sign up</a></p>
-      <p>Forgot your password? <a href="forgot.html">Click here</a></p>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+        <!-- <p>Remember Password<a href="login.html"> Login</a></p> -->
     </div>
   </div>
 
 
-
   <script>
-    function login(){
-      window.location.href="../index.html"
+    function signup(){
+        window.alert("Open your mail and click the activation link to Create an Account.")
+        window.location.href="login.html"
+
     }
   </script>
 
